@@ -12,14 +12,14 @@ function ShoppingList() {
     <div>
       <select>
         {uniquePlantCategories.map((category) => (
-          <option value={`${category}`} key={`${category}`}>
+          <option value={category} key={category}>
             {category}
           </option>
         ))}
       </select>
       <ul>
         {plantList.map((plant, index) => (
-          <li key={`${plant.name}-${index}`}>{plant.name}</li>
+          <li key={plant.id}>{plant.name}</li>
         ))}
       </ul>
     </div>
