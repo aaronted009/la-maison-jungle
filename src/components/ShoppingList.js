@@ -1,7 +1,7 @@
 import { plantList } from "../data/plantList";
 
 function ShoppingList() {
-  const uniquePlantCategories = plantList.reduce((unique, plant) => {
+  const categories = plantList.reduce((unique, plant) => {
     if (!unique.includes(plant.category)) {
       unique.push(plant.category);
     }
@@ -11,14 +11,14 @@ function ShoppingList() {
   return (
     <div>
       <select>
-        {uniquePlantCategories.map((category) => (
+        {categories.map((category) => (
           <option value={category} key={category}>
             {category}
           </option>
         ))}
       </select>
       <ul>
-        {plantList.map((plant, index) => (
+        {plantList.map((plant) => (
           <li key={plant.id}>{plant.name}</li>
         ))}
       </ul>
