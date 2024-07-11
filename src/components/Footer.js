@@ -15,15 +15,13 @@ function Footer() {
       <div className="lmj-footer-elem">
         Pour les passionné·e·s de plantes 🌿🌱🌵
       </div>
-      <div className="lmj-footer-elem">
-        Laissez-nous votre mail :
-        <input
-          type="text"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-          onBlur={(e) => checkValue(e.target.value)}
-        ></input>
-      </div>
+      <div className="lmj-footer-elem">Laissez-nous votre mail :</div>
+      <input
+        type="text"
+        value={inputValue}
+        onChange={(e) => setInputValue(e.target.value)}
+        onBlur={(e) => checkValue(e.target.value)}
+      ></input>
     </footer>
   );
 }
