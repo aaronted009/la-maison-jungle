@@ -2,73 +2,66 @@ export const plantList = [
 	{
 		name: 'monstera',
 		category: 'classique',
-        isSpecialOffer: true,
+		id: '1ed',
+		isBestSale: true,
 		light: 2,
-		water: 3,
-		id: '1ed'
+		water: 3
 	},
 	{
 		name: 'ficus lyrata',
 		category: 'classique',
-        isSpecialOffer: false,
+		id: '2ab',
 		light: 3,
-		water: 1,
-		id: '2ab'
+		water: 1
 	},
 	{
 		name: 'pothos argenté',
 		category: 'classique',
-        isSpecialOffer: true,
-		light: 2,
-		water: 2,
-		id: '3sd'
+		id: '3sd',
+		light: 1,
+		water: 2
 	},
 	{
 		name: 'yucca',
 		category: 'classique',
-        isSpecialOffer: true,
+		id: '4kk',
 		light: 3,
-		water: 3,
-		id: '4kk'
+		water: 1
 	},
 	{
 		name: 'olivier',
 		category: 'extérieur',
-        isSpecialOffer: false,
-		light: 2,
-		water: 1,
-		id: '5pl'
+		id: '5pl',
+		light: 3,
+		water: 1
 	},
 	{
 		name: 'géranium',
 		category: 'extérieur',
-        isSpecialOffer: true,
-		light: 3,
-		water: 2,
-		id: '6uo'
+		id: '6uo',
+		light: 2,
+		water: 2
 	},
 	{
 		name: 'basilique',
 		category: 'extérieur',
-        isSpecialOffer: false,
+		id: '7ie',
+		isBestSale: true,
 		light: 2,
-		water: 3,
-		id: '7ie'
+		water: 3
 	},
 	{
 		name: 'aloe',
 		category: 'plante grasse',
-        isSpecialOffer: false,
-		light: 3,
-		water: 3,
-		id: '8fp'
+		id: '8fp',
+		light: 2,
+		water: 1
 	},
 	{
 		name: 'succulente',
 		category: 'plante grasse',
-        isSpecialOffer: true,
-		light: 1,
-		water: 3,
-		id: '9vn'
+		id: '9vn',
+		light: 2,
+		water: 1
 	}
 ]
